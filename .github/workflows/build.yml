@@ -17,7 +17,7 @@ on:
       - master
   release:
     types: released
-
+    workflows_dispatch:
 env:
   CI_REQ_DOTNET_SDK_VER: 6.0.100
 
